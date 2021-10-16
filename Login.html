@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="Login.css" rel="stylesheet" />
+    <script src="login.js"></script>
+<!-- <link href="static/css/myCss.css" rel="stylesheet" />
+<link href="static/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+<link href="static/css/customIndex.css" rel="stylesheet" />
+<link href="static/css/bootstrap-responsive.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" /> -->
+  </head>
+<body>
+   
+    <header>
+        <nav>
+            <div class="menu-icon">
+                <span class="fas fa-bars"></span>
+            </div>
+            <div class="logo">
+                Movies
+            </div>
+            <div class="nav-items">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="index.html">Recommendations</a></li>
+                <li><a href="Login.html">Contact</a></li>
+                <!-- <li><a href="#">Feedback</a></li> -->
+            </div>
+            <div class="search-icon">
+                <span class="fas fa-search"></span>
+            </div>
+            <div class="cancel-icon">
+                <span class="fas fa-times"></span>
+            </div>
+            <form id="form">
+                <input type="text" placeholder="search" id="search" class="search">
+            </form>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <h2><b>Contact us</b></h2>
+        <div id="error_message">
+    
+        </div>
+        <form action="" id="myform" onsubmit="return validate();">
+            <div class="input_field">
+                <input type="text" placeholder="Name" id="name">
+            </div>
+            <div class="input_field">
+                <input type="text" placeholder="Subject" id="subject">
+            </div>
+            <div class="input_field">
+                <input type="text" placeholder="Phone" id="phone">
+            </div>
+            <div class="input_field">
+                <input type="text" placeholder="Email" id="email">
+            </div>
+            <div class="input_field">
+                <textarea placeholder="Message" id="message"></textarea>
+            </div>
+            <div class="btn">
+                <input type="submit">
+            </div>
+        </form>
+    </div>
+  </body>
+</html>
