@@ -1,6 +1,6 @@
 # Movie-Recommendation-Site
 
-![logm](https://user-images.githubusercontent.com/60578475/137583581-738b1687-9ac5-4f6c-aa7b-aefc577d905a.PNG)
+![homeeeees](https://user-images.githubusercontent.com/60578475/141072235-d2833f2c-4adb-437e-8fb4-bde625a97aaa.PNG)
 
 ![about us](https://user-images.githubusercontent.com/60578475/137583797-a814e5aa-b4b9-4c21-9da8-e2450bf54046.PNG)
 
